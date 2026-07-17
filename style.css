@@ -1,0 +1,12 @@
+:root {
+    --plum-dark: #1a0f2e;
+    --gold-bright: #e8c872;
+    --whitesmoke: #f4f1ea
+}
+
+body {
+    background-color: var(--plum-dark);
+    color: var(--whitesmoke);
+    font-family: sans-serif;
+    margin: 0;
+}
