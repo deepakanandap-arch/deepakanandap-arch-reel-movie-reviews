@@ -169,3 +169,12 @@ body {
     cursor: pointer;
     font-size: 12px;
 }
+
+/*footer*/
+
+.footer-text {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 13px;
+    color: #a89bc4;
+}
