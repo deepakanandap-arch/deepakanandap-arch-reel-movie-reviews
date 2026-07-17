@@ -125,3 +125,47 @@ body {
     color:#a89bc4;
 
 }
+
+/*reviewers*/
+
+.reviewers-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.reviewer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewer-avatar {
+    width: 70px;
+    height: 70px;
+    background-color: var(--gold-bright);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.reviewer-name {
+    margin-top: 6px;
+    font-size: 13px;
+
+
+}
+
+.follow-button {
+    margin-top: 6px;
+    padding: 4px 12px;
+    background-color: var(--gold-bright);
+    color: var(--plum-dark);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
