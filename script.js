@@ -3,6 +3,10 @@ let followButtons = document.querySelectorAll(".follow-button");
 
 followButtons.forEach(function (button) {
     button.addEventListener("click", function () {
-        button.textContent = "Following";
+        if (button.textContent === "Follow") {
+            button.textContent = "Following";
+        } else {
+            button.textContent = "Follow";
+        }
     });
 });
