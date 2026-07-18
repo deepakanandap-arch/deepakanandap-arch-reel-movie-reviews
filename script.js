@@ -10,3 +10,11 @@ followButtons.forEach(function (button) {
         }
     });
 });
+
+let movieCards = document.querySelectorAll(".movie-card");
+
+movieCards.forEach(function (card) {
+  card.addEventListener("click", function () {
+    card.classList.toggle("watched");
+  });
+});
