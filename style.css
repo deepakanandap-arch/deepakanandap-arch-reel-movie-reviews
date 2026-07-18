@@ -195,3 +195,31 @@ body {
     font-size: 13px;
     color: #a89bc4;
 }
+
+
+
+/*mobile responsiveness*/
+@media (max-width: 600px) {
+    .logo  {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .movie-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+    .movie-poster {
+        height: 110px;
+        font-size: 28px;
+    }
+
+    .netflix-thumb, .amazon-thumb {
+        width: 120px;
+        height: 70px;
+
+    }
+}
