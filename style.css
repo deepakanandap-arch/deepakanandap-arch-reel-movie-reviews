@@ -7,8 +7,17 @@
 body {
     background-color: var(--plum-dark);
     color: var(--whitesmoke);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
+}
+
+/*logo*/
+
+.logo {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 /*lay out*/
