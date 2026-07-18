@@ -1,7 +1,8 @@
 console.log("My script is connecterd")
-let followButton = document.querySelector(".follow-button");
+let followButtons = document.querySelectorAll(".follow-button");
 
-followButton.addEventListener("click", function() {
-followButton.textContent = "following";
-}
-)
+followButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+        button.textContent = "Following";
+    });
+});
